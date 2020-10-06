@@ -1,0 +1,27 @@
+1.What is Linear Regression?
+ -> This algorithm is used to find the relationship between 2 variables(dependent and independent)
+ -> It is a linear model which assumes a linear relationship between input and output variables
+ -> If we have single input variable then we call it as simple linear regression,if we have multiple we call it as multiple linear regression.
+ 
+ 
+ 2.Goal of Linear Regression?
+  -> The core idea is to obtain a line that best fits the data
+  -> Equation of the line is Y=m*X+b where y=output,x=input and m&b are coefficients that we need to estimate
+  
+ 3.How does it work?
+   -> Ultimate goal is to find the best fit line which minimizes the error(distance between the line and the datapoint)
+   -> The values of m and b must be choosen so that they minimize the error
+   ->So the algorithm will try multiple m and b values and calculates the error
+   -> finally it takes the best m and b which has low error
+   
+ 4.Advabtages
+  -> Linear Regression is simple to implement and easier to interpret the output coefficients.
+  -> High Performance on linearly seperable datasets
+  -> Linear Regression is susceptible to over-fitting but it can be avoided using some dimensionately reduction techniques,reguralization(l1 and L2) techniques and cross-validation
+  
+  
+  
+  5.Disadvantages
+  -> Prone to underfitting
+  -> Sensitive to outliers
+  -> Linear Regression assumes that the data is independent 
